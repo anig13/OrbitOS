@@ -1,0 +1,87 @@
+:root {
+	--dark: #0a0f24;
+	--navy: #1b2a41;
+    --cyan: #00e5ff;
+	--medium-blue: #4da6ff;
+	--neon-green: #39ff88;
+	--orange: #ff7a18;
+	--medium-gray: #d1d9e6;
+    --dark-gray: #8a93a5;
+    --light-gray: #e6edf3;
+
+	--text: #e6edf3;
+}
+
+body {
+
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--navy);
+    color: var(--text);
+
+}
+
+
+
+.leftsidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 220px;
+    height: 100vh;
+    padding: 20px;
+    background-color: var(--dark);
+}
+
+.leftsidebar nav ul {
+    list-style: none; /* Remove default bullet points */
+    padding: 0;
+}
+
+.leftsidebar nav ul li a {
+    display: block; /* Make links fill the list item area */
+    padding: 10px 0;
+    text-decoration: none; /* Remove underlines */
+    color: #333;
+}
+
+.nav-btn {
+    background-color: var(--navy);
+    color: var(--text);
+    border: none;
+    padding: 10px 20px;
+    margin: 5px 0;
+    cursor: pointer;
+    width: 100%;
+    font-size: large;
+
+}
+
+.rightsidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 220px;
+    height: 100vh;
+    padding: 20px;
+    background-color: var(--dark);
+    color: var(--text)
+}
+
+.rightsidebar .rightbartitle {
+    font-size: 34px;
+    margin-bottom: 20px;
+    width: auto;
+}
+
+
+main{
+    margin-left:300px;
+    margin-right:340px; /* add this */
+    padding:20px;
+
+    background-color: var(--navy);
+    color: var(--text);
+    
+    font-size: 20px;
+}
